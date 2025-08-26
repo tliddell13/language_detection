@@ -1,0 +1,1 @@
+{"rule":"ARROWS","sentence":"^\\QN - Gram -> TF-IDF -> Naive Bayes\\E$"}
