@@ -80,7 +80,7 @@ python language_detection.py "Café WiFi password gracias"
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/language-detection.git
+git clone https://github.com/tliddell13/language_detection.git
 cd language-detection
 ```
 
