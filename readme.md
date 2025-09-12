@@ -75,3 +75,16 @@ python language_detection.py "Hotel restaurant parking"
 python language_detection.py "Pizza pasta spaghetti delicious"
 python language_detection.py "Café WiFi password gracias"
 ```
+
+## Installation
+
+1. Clone this repository:
+```bash
+git clone https://github.com/yourusername/language-detection.git
+cd language-detection
+```
+
+2. Install required dependencies:
+```bash
+pip install -r requirements.txt
+```
