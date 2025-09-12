@@ -6,7 +6,6 @@
 # Data files
 wiki_languages/
 *.csv
-*.txt
 
 # Python
 __pycache__/
