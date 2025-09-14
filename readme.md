@@ -28,52 +28,52 @@ This ensemble balances dataset performance with real-world generalization withou
 ## Files
 
 - `train_model.ipynb` - Model training and analysis notebook
-- `language_detection.py` - Command-line interface for language detection
+- `language_detector.py` - Command-line interface for language detection
 
 ## Usage
 
 Run the script with any text phrase:
 
 ```bash
-python language_detection.py "Your text here"
+python language_detector.py "Your text here"
 ```
 
 ### Example Test Cases
 
 **Basic Conversational:**
 ```bash
-python language_detection.py "How's your day going?"
-python language_detection.py "¿Cómo está tu día?"
-python language_detection.py "Comment va ta journée?"
-python language_detection.py "Wie läuft dein Tag?"
-python language_detection.py "Как дела сегодня?"
+python language_detector.py "How's your day going?"
+python language_detector.py "¿Cómo está tu día?"
+python language_detector.py "Comment va ta journée?"
+python language_detector.py "Wie läuft dein Tag?"
+python language_detector.py "Как дела сегодня?"
 ```
 
 **Code-Switching (Mixed Languages):**
 ```bash
-python language_detection.py "I'm going to the biblioteca to study"
-python language_detection.py "Let's meet at the café später"
-python language_detection.py "Je suis très tired today"
-python language_detection.py "Das ist really interesting"
-python language_detection.py "Привет guys, how are you?"
+python language_detector.py "I'm going to the biblioteca to study"
+python language_detector.py "Let's meet at the café später"
+python language_detector.py "Je suis très tired today"
+python language_detector.py "Das ist really interesting"
+python language_detector.py "Привет guys, how are you?"
 ```
 
 **Ambiguous Short Words:**
 ```bash
-python language_detection.py "chat"
-python language_detection.py "pain"
-python language_detection.py "son"
-python language_detection.py "est"
-python language_detection.py "no"
+python language_detector.py "chat"
+python language_detector.py "pain"
+python language_detector.py "son"
+python language_detector.py "est"
+python language_detector.py "no"
 ```
 
 **Borrowed Words:**
 ```bash
-python language_detection.py "That's a nice garage"
-python language_detection.py "C'est un beau garage"
-python language_detection.py "Hotel restaurant parking"
-python language_detection.py "Pizza pasta spaghetti delicious"
-python language_detection.py "Café WiFi password gracias"
+python language_detector.py "That's a nice garage"
+python language_detector.py "C'est un beau garage"
+python language_detector.py "Hotel restaurant parking"
+python language_detector.py "Pizza pasta spaghetti delicious"
+python language_detector.py "Café WiFi password gracias"
 ```
 
 ## Installation
